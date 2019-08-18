@@ -89,7 +89,7 @@ double sumImagePixels(cv::Mat input) {
 
 float average(float data[]) {
 	float accum = 0;
-	for (int i = 20; i < 80; ++i)
+	for (int i = 10; i < 90; ++i)
 		accum += data[i];
 
 	return accum / 80;
@@ -101,7 +101,7 @@ float standardDeviation(float data[])
 
 	int i;
 
-	for (i = 20; i < 80; ++i)
+	for (i = 10; i < 90; ++i)
 	{
 		sum += data[i];
 	}
